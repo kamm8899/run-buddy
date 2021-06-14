@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Run Buddy</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
     <header>
@@ -29,6 +30,37 @@
     </ul>      
         </nav>
     </header>
+    <section>
+        <div>
+            <h3> Get Started Today!</h3>
+            <p> Fill out the form today, and one of the trainers will reach out to you to schedule an consultation!</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email address">Enter your Email address:</label>
+                <input type="email" placeholder="email address" name="email" id="email" />
+                <label for="phone number">Enter your Phone Number:</label>
+                <input type="tel" placeholder="Phone number" name="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer befre?
+                    <input type="radio" name="trainer-confirm" id= "trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    
+                    <label type="checkbox" >
+                    I acknowledge that I am at least 18 years of acknowledge
+                </label>
+                <input type="checkbox" name="age-confirm" id="checkbox"/>
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+            </form>
+        </div>
+    </section>
    <!--hero/jumbotron-->
    <section>
 
@@ -50,5 +82,9 @@
 
 <footer>
     <h2>❤️ Made with love by Run Buddy.</h2>
+ <div>
+     <a href="#"> Read Our privacy Policy</a><br/>
+     &copy; 2019 Run Buddy, Inc.
+ </div>   
 </footer>
 </html>
