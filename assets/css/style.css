@@ -33,7 +33,7 @@ header nav ul li{
 }
 
 header nav ul li a{
-    margin: 0 30 px;
+    margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -71,7 +71,6 @@ footer a{
 .hero{
     background-image: url("../images/mock up nav page.jpeg");
     height: 600px;
-    font-size: 20px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -80,6 +79,7 @@ footer a{
 section{
 
     padding: 60px;
+    display: block;
 }
 
 .hero-form{   
